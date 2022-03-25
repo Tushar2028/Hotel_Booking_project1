@@ -1,4 +1,36 @@
+div,body{
+    height: 100%;
+    width: 100%;
+}
 #Logoimg1{
-    height:200px ;
-    width: 200px;
+    width: 60px;
+    height:60px ;
+}
+#myidtoradisson{
+    height: 150px;
+    width: 150px;
+}
+#myidtolalit{
+    height: 150px;
+    width: 150px;
+}
+#myidtotaj{
+    height: 150px;
+    width: 150px;
+}
+#Kolimg{
+    height: 150px;
+    width:150px; 
+}
+#twitimg{
+   height: 20px;
+    width: 22px;
+}
+#instaimg{
+    height: 20px;
+    width: 22px;
+}
+#fbimg{
+    height: 20px;
+    width: 22px;
 }
