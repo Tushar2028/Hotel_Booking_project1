@@ -9,6 +9,9 @@ div,body{
 #radissonimg{
     height: 500px;
     width: 500px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 #timg{
     height: 20px;
@@ -21,4 +24,21 @@ div,body{
 #fbimg{
     height: 20px;
     width: 22px;
+}
+#forheader{
+    background-color:rosybrown;
+}
+#formargin{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+#fordiscription{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 2;
+}
+#forfooter{
+    background-color: rosybrown;
 }

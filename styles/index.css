@@ -1,28 +1,51 @@
 html,body{
     height: 100%;
     width: 100%
+
 }
 #Logoimg1{
     height: 60px;
     width: 60px;
-}
+    }
+   
 #Delhiimg{
     height: 150px;
     width: 150px;
+    margin-left: 14%;
+    padding: 4%;
+   border-radius: 25%;
+
 }
 #Goaimg{
     height: 150px;
     width: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
 #Hydimg{
     height: 150px;
     width: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
 #Kolimg{
     height: 150px;
-    width: 150px; 
+    width: 150px;
+    padding: 4%; 
+    border-radius: 25%;
+    margin-right: 13%;
+
 }
 #fblogo{
     height: 20px;
     width: 22px ;
+
 }
+.bkimgbox{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

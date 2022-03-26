@@ -9,6 +9,7 @@ div,body{
 #myidtoradisson{
     height: 150px;
     width: 150px;
+    
 }
 #myidtolalit{
     height: 150px;
@@ -33,4 +34,9 @@ div,body{
 #fbimg{
     height: 20px;
     width: 22px;
+}
+#forlisthotel{
+    margin: 2%;
+    width: 40%;
+ background-color: rgb(132, 136,139);
 }
