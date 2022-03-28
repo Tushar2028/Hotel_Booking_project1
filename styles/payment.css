@@ -7,20 +7,30 @@ background-color: #e0e0e0;
       margin-right: 0;
    margin-bottom: 0;
 }
+#forlogin{
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+}
 #Logoimg1{
     height: 60px;
     width: 60px;
 }
 .rdimg{
     height: 500px;
-    width: 500px;
-    
+width: 500px;    
 }
 #forheader{
     background-color: rosybrown;
+    position: sticky;
+    top: 0;
 }
 #forfooter{
     background-color: rosybrown;
+    position: sticky;
+    bottom: 0;
 }
 #forradisson{
     background-color:rgb(132,136,139);
@@ -43,4 +53,24 @@ padding-bottom: 1%;
 padding-left: 2%;
 padding-right: 2%;
 border-radius: 5px;
+}
+#foricons{
+    float: right;
+    background-color: rosybrown;
+    margin-right:5px;
+}
+#forcrpt{
+    margin-left: 45%;
+    font-family: sans-serif;
+}
+#forcontact{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;
+}
+#forpay{
+    text-decoration: none;
+    color: black;
+    font-family:'Ubuntu', sans-serif;
+position:absolute;    
 }

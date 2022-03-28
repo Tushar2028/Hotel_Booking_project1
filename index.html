@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
     <title>index</title>
 </head>
 <body style="background-color: #e0e0e0;"
@@ -16,12 +17,13 @@ bottommargin="0"
     <!-- <div-container> -->
     <div-container id="Mycontainer">
         <div>
-            <header style="background-color: rosybrown;">
-                <img id="Logoimg1" src="./assests/images/logo.png" alt="logo" srcset="">
-                <a href="./login.html" target=""> <u>Login</u></a>
-            </header>
+            <header class="fornav" style="background-color: rosybrown;">
+                <div>
+              <img id="Logoimg1" class="logincls" src="./assests/images/logo.png" alt="logo" srcset="">
+             <a id="forlogin" class="logimg" href="./login.html"  target=""> <u>Login</u></a>
+            </div> </header>
                 <div class="bkimgbox">
-                    <input type="text"placeholder="City"> 
+                    <input type="text" id="mysearcher" placeholder="City"> 
                    <br> </div> 
                    <div class="imglist" ><a href="./list.html">
                     <img id="Delhiimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
@@ -36,17 +38,17 @@ bottommargin="0"
                 <br>
                 
             </div>
-            <a href="./index.html"><u>View more >></u></a>
-            <footer style="background-color: rosybrown;">
+            <a id="forview"href="./index.html"><u>View more >></u></a>
+            <footer  style="background-color: rosybrown;"><div></div> <br>
                 
-                <div><a href="./contact.html" target="">Contact us</a><br>
-                    <a href="https://www.facebook.com" target="NEWblank"><img src="./assests/images/facebook.png"
+                <a id="forcontact" href="./contact.html" target="">Contact us</a><br> 
+                     <div id="foricon"><a href="https://www.facebook.com" target="NEWblank"><img src="./assests/images/facebook.png"
                             height="20px" width="22px" alt="" srcset="">
                         <a href="https://www.instagram.com" target="nnew blank"><img
                                 src="./assests/images/instagram.png" height="20px" width="22px" alt="" srcset=""></a>
                         <a href="https://www.twitter.com" target="neww blank"><img src="./assests/images/twitter.png"
-                                height="20px" width="22px" alt="" srcset=""></a><br>
-                        <span>© 2020 ROOM SEARCH PVT.LTD</span>
+                                height="20px" width="22px" alt="" srcset=""></a><br></div>
+                        <span id="forcopyryt">© 2020 ROOM SEARCH PVT.LTD</span>
                 </div>
             </footer>
             <!-- </header>    

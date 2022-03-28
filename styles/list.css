@@ -1,3 +1,4 @@
+@import url('htt    ps://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 div,body{
     height: 100%;
     width: 100%;
@@ -5,6 +6,9 @@ div,body{
 #Logoimg1{
     width: 60px;
     height:60px ;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding-top: 6px;
 }
 #myidtoradisson{
     height: 150px;
@@ -19,6 +23,11 @@ div,body{
     height: 150px;
     width: 150px;
 }
+#htltaj{
+    margin-left: 750px;
+    margin-top: -300px;
+
+}
 #Kolimg{
     height: 150px;
     width:150px; 
@@ -32,11 +41,53 @@ div,body{
     width: 22px;
 }
 #fbimg{
-    height: 20px;
-    width: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;
 }
 #forlisthotel{
     margin: 2%;
     width: 40%;
  background-color: rgb(132, 136,139);
+}
+.fornav{
+    top: 0;
+    position: sticky ;
+}
+#forlogin{
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black
+}
+#forheader{
+    position: fixed;
+    width: 100%;
+}
+#forcopryt{
+    margin-left: 715px; 
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
+.foricons{
+margin-left: 94.5%;
+}
+#formv{
+    text-decoration: none;
+    margin-left: 100px;
+    color: black;
+}
+#forlv{
+    text-decoration: none;
+    margin-left: 570px;
+    color: black;
+}
+#forlisthotel a{
+    text-decoration: none;
+    color: black;
 }

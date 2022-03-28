@@ -27,6 +27,8 @@ div,body{
 }
 #forheader{
     background-color:rosybrown;
+    position:sticky;
+    top: 0;
 }
 #formargin{
     margin-left: 4%;
@@ -41,4 +43,24 @@ div,body{
 }
 #forfooter{
     background-color: rosybrown;
+    position:sticky;
+    bottom: 0;
+}
+#forlogin{
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black
+}
+#forcprt{
+    margin-left: 700px;
+}
+#foricon{
+    vertical-align: middle;
+    margin-left: 94%;
+}
+#forcontact{
+    text-decoration:none;
+    color: black;       
 }

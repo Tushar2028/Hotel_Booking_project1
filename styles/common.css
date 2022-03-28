@@ -1,0 +1,30 @@
+.fornav{
+    position: sticky;
+    top: 0;
+}
+#forlogin {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;       
+}
+#forcontact{
+    margin-left: 20px;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;
+}
+#foricon{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    align-self: center;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;
+}
+#forcopyryt{
+    margin-left: 675px;
+}
