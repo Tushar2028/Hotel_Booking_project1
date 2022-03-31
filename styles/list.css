@@ -13,6 +13,7 @@ div,body{
 #myidtoradisson{
     height: 150px;
     width: 150px;
+    background-color: lightgrey;
     
 }
 #myidtolalit{
@@ -40,21 +41,23 @@ div,body{
     height: 20px;
     width: 22px;
 }
-#fbimg{
+ #fbimg{
     margin-left: 20px;
     margin-top: 20px;
     text-decoration: none;
     color: black;
     font-family: 'Ubuntu',sans-serif;
-}
+} 
 #forlisthotel{
     margin: 2%;
     width: 40%;
- background-color: rgb(132, 136,139);
+ background-color:lightgrey;
 }
 .fornav{
     top: 0;
     position: sticky ;
+    flex-wrap: nowrap;
+    display: flex;
 }
 #forlogin{
     text-decoration: none;
@@ -64,6 +67,7 @@ div,body{
     color: black
 }
 #forheader{
+    
     position: fixed;
     width: 100%;
 }
@@ -73,6 +77,10 @@ div,body{
 footer{
     position: sticky;
     bottom: 0;
+    width: 100%;
+    vertical-align: middle;
+
+
 }
 .foricons{
 margin-left: 94.5%;
@@ -83,6 +91,7 @@ margin-left: 94.5%;
     color: black;
 }
 #forlv{
+
     text-decoration: none;
     margin-left: 570px;
     color: black;
@@ -91,3 +100,10 @@ margin-left: 94.5%;
     text-decoration: none;
     color: black;
 }
+ #fbimg{
+    margin-left: 20px;  
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu',sans-serif;
+    position: absolute;
+} 

@@ -8,6 +8,7 @@ background-color: #e0e0e0;
    margin-bottom: 0;
 }
 #forlogin{
+    font-family: sans-serif;
     text-decoration: none;
     float: right;
     margin-top: 20px;
@@ -19,8 +20,8 @@ background-color: #e0e0e0;
     width: 60px;
 }
 .rdimg{
-    height: 500px;
-width: 500px;    
+    height: 400px;
+width: 789px;    
 }
 #forheader{
     background-color: rosybrown;
@@ -42,35 +43,50 @@ width: 500px;
     margin-right: 24%;
 }
 #forcustdtl{
+    
+    font-family: cursive;
+    border: 2px solid black;
+    background-color: rosybrown;
     margin: 2%;
+    padding-left: 30px;
+    padding-bottom: -5%;
+    
 }
 #fortarif{
+    font-family: cursive;
 margin: 2%;
-outline-style: 1px;
-border: 1px solid black;
-padding-top: 1%;
+padding-top: -15%;
 padding-bottom: 1%;
 padding-left: 2%;
 padding-right: 2%;
-border-radius: 5px;
+background-color: rosybrown;
+margin-left: 500px;
+margin-top: -70px;
 }
 #foricons{
     float: right;
     background-color: rosybrown;
-    margin-right:5px;
+    margin-right:10px;
+    right: 5px;
 }
 #forcrpt{
-    margin-left: 45%;
+    margin-left: 42%;
+    margin-bottom: 20px;
     font-family: sans-serif;
 }
 #forcontact{
+    position: absolute;
     text-decoration: none;
     color: black;
     font-family: 'Ubuntu',sans-serif;
+     margin-left: 20px;
+     padding-top: 15px;
 }
 #forpay{
     text-decoration: none;
     color: black;
     font-family:'Ubuntu', sans-serif;
-position:absolute;    
+    float: right;
+    margin-right: 20%; 
+    margin-top: -8%;
 }

@@ -9,36 +9,75 @@ html,body{
     width: 60px;
     box-sizing:border-box;
     vertical-align:center;
+    margin-left: 1%;
+    }
+    #Delhiimg::after{
+        content:"Delhi";
+        
+
     }
 #Delhiimg{
+    
     height: 150px;
     width: 150px;
-    margin-left: 14%;
-    padding: 4%;
-   border-radius: 25%;
+    margin-left:50%;
+    margin-right:-2% ;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+   border-radius: 30%;
+   box-shadow:0, 0, 0, 0.5;
 }
 #Goaimg{
     height: 150px;
     width: 150px;
     padding: 4%;
-    border-radius: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: -5%;
+    border-radius: 35%;
 }
 #Hydimg{
     height: 150px;
     width: 150px;
-    padding: 4%;
-    border-radius: 25%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: -4%;
+    border-radius: 35%;
 }
 #Kolimg{
     height: 150px;
     width: 150px;
-    padding: 4%; 
-    border-radius: 25%;
-    margin-right: 13%;
+    padding: 2%; 
+    border-radius: 35%;
+    margin-right: 23%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-left: 10%;   
 }
 #fblogo{
-    height: 20px;
+    height: 20px    ;
     width: 22px ;
+    
 }
 .bkimgbox{
     margin-right: 0%;
@@ -49,23 +88,24 @@ html,body{
     background-position: center;
 }
 .fornav a{
+text-decoration: none;
  text-align:right;
  font-family: 'Ubuntu', sans-serif;
- display: flex;
 }
 .fornav{
     position: sticky;
     top: 0;
 }
 #forlogin {
+    text-decoration: none;
         float: right;
         margin-top: 20px;
-        margin-right: 20px;
+        margin-right: 20px  ;
         color: black;
         font-family: 'Ubuntu',sans-serif;       
     }
 #forcontact{
-        margin-left: 20px;
+        margin-left: 2%;
         align-self: center;
         text-decoration: none;
         color: black;
@@ -73,7 +113,7 @@ html,body{
 }
 #foricon{
     float: right;
-    margin-right: 20px;
+    margin-right: 2%;
     margin-bottom: 20px;
     margin-top: -20px;
     align-self: center;
@@ -84,29 +124,52 @@ html,body{
     margin-left: 675px;
 }
 footer{
+    flex: auto;
     position: sticky;
-    bottom: 0%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    vertical-align: middle;
 }
 #forview{
     text-decoration: none;
     margin-left: 700px;
     color:black;
     padding: 50px;
-    padding-bottom: 70px ;
+ padding-bottom: 10%;
 }
 #forview a{
     text-decoration: none;
+    padding-bottom: 30px;
 }
 #mysearcher{
+    border: 0px solid;
+    outline: none;
     vertical-align: middle;
     padding:10px;
     margin-left: 615px;
     width: 350px;
-    border: transparent 1px;
     background-color: #f1f1f1;
     border-radius: 12px;
     font-size: 16px;
     position: relative;
             display: block;
             top: 45%;
-}   
+}  
+.overlay {
+    position: absolute;
+    display: flex;
+    font-family: sans-serif;
+    box-shadow:rgb(10px,10px,10px,grey);
+    flex-direction: column;
+    
+}
+.imglist {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+}
