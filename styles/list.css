@@ -1,80 +1,97 @@
 @import url('htt    ps://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-div,body{
+
+div,
+body {
     height: 100%;
     width: 100%;
 }
-#Logoimg1{
+
+#Logoimg1 {
     width: 60px;
-    height:60px ;
+    height: 60px;
     box-sizing: border-box;
     vertical-align: middle;
     padding-top: 6px;
 }
-#myidtoradisson{
+
+#myidtoradisson {
     height: 150px;
     width: 150px;
     background-color: lightgrey;
-    
+
 }
-#myidtolalit{
+
+#myidtolalit {
     height: 150px;
     width: 150px;
 }
-#myidtotaj{
+
+#myidtotaj {
     height: 150px;
     width: 150px;
 }
-#htltaj{
+
+#htltaj {
     margin-left: 750px;
     margin-top: -300px;
 
 }
-#Kolimg{
+
+#Kolimg {
     height: 150px;
-    width:150px; 
+    width: 150px;
 }
-#twitimg{
-   height: 20px;
-    width: 22px;
-}
-#instaimg{
+
+#twitimg {
     height: 20px;
     width: 22px;
 }
- #fbimg{
+
+#instaimg {
+    height: 20px;
+    width: 22px;
+}
+
+#fbimg {
     margin-left: 20px;
     margin-top: 20px;
     text-decoration: none;
     color: black;
-    font-family: 'Ubuntu',sans-serif;
-} 
-#forlisthotel{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#forlisthotel {
     margin: 2%;
     width: 40%;
- background-color:lightgrey;
+    background-color: lightgrey;
 }
-.fornav{
+
+.fornav {
     top: 0;
-    position: sticky ;
+    position: sticky;
     flex-wrap: nowrap;
     display: flex;
 }
-#forlogin{
+
+#forlogin {
     text-decoration: none;
     float: right;
     margin-top: 20px;
     margin-right: 20px;
     color: black
 }
-#forheader{
-    
+
+#forheader {
+
     position: fixed;
     width: 100%;
 }
-#forcopryt{
-    margin-left: 715px; 
+
+#forcopryt {
+    margin-left: 715px;
 }
-footer{
+
+footer {
     position: sticky;
     bottom: 0;
     width: 100%;
@@ -82,28 +99,33 @@ footer{
 
 
 }
-.foricons{
-margin-left: 94.5%;
+
+.foricons {
+    margin-left: 94.5%;
 }
-#formv{
+
+#formv {
     text-decoration: none;
     margin-left: 100px;
     color: black;
 }
-#forlv{
+
+#forlv {
 
     text-decoration: none;
     margin-left: 570px;
     color: black;
 }
-#forlisthotel a{
+
+#forlisthotel a {
     text-decoration: none;
     color: black;
 }
- #fbimg{
-    margin-left: 20px;  
+
+#fbimg {
+    margin-left: 20px;
     text-decoration: none;
     color: black;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     position: absolute;
-} 
+}
